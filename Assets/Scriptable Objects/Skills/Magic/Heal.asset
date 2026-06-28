@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afaaf2893852fe4aba412cdea883052, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  skillName: Heal
+  apCost: 1
+  priority: 0
+  targetType: 1
+  power: 0
+  isMagic: 1
+  canDestroyLimb: 0
+  usageContext: 2
+  accuracy: 100
+  mindCost: 15
+  isHealingSkill: 1
+  minHeal: 50
+  maxHeal: 100
+  isBuffSkill: 0
+  buffDuration: 0
+  attackBuff: 0
+  magicAttackBuff: 0
+  defenseBuff: 0
+  magicDefenseBuff: 0
+  agilityBuff: 0
+  isDebuffSkill: 0
+  canApplyDebuff: 0
+  debuffDuration: 0
+  debuffApplyChance: 0
+  attackDebuff: 0
+  magicAttackDebuff: 0
+  defenseDebuff: 0
+  magicDefenseDebuff: 0
+  agilityDebuff: 0
+  dotType: 0
+  dotDuration: 0
+  canApplyStatus: 0
+  statusApplyChance: 0
+  statusDOTType: 0
+  statusDuration: 0
+  animationType: 3
+  vfxPrefab: {fileID: 3280519133390621005, guid: a71be3e7990efb040a07565c43cbb198, type: 3}
+  spawnOnCaster: 1
+  spawnOnTarget: 0
+  vfxLifetime: 2
+  animationDuration: 2
+  castSFX: {fileID: 0}
+  sfxVolume: 1

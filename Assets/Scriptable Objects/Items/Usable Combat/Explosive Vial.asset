@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe75c160ffd5a54db06f3f3b16ff87f, type: 3}
+  m_Name: Explosive Vial
+  m_EditorClassIdentifier: 
+  itemName: Explosive Vial
+  description: 
+  icon: {fileID: 0}
+  targetType: 2
+  targetWholeBody: 1
+  usableByLeftArm: 1
+  usableByRightArm: 1
+  apCost: 1
+  useType: 0
+  healAmount: 0
+  mindRestore: 0
+  damageAmount: 20
+  hungerRestore: 0
+  curesPoison: 0
+  curesBurn: 0
+  curesBleed: 0
+  curesAllDOT: 0
+  animationType: 1
+  animationDuration: 2
+  vfxPrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
+  spawnOnCaster: 0
+  spawnOnTarget: 1
+  vfxLifetime: 2

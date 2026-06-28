@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afaaf2893852fe4aba412cdea883052, type: 3}
+  m_Name: Bite (Enemy)
+  m_EditorClassIdentifier: 
+  skillName: Punch
+  apCost: 1
+  priority: 0
+  targetType: 0
+  power: 2
+  isMagic: 0
+  canDestroyLimb: 1
+  usageContext: 0
+  accuracy: 100
+  mindCost: 0
+  isHealingSkill: 0
+  minHeal: 0
+  maxHeal: 0
+  isBuffSkill: 0
+  buffDuration: 0
+  attackBuff: 0
+  magicAttackBuff: 0
+  defenseBuff: 0
+  magicDefenseBuff: 0
+  agilityBuff: 0
+  isDebuffSkill: 0
+  canApplyDebuff: 0
+  debuffDuration: 0
+  debuffApplyChance: 0
+  attackDebuff: 0
+  magicAttackDebuff: 0
+  defenseDebuff: 0
+  magicDefenseDebuff: 0
+  agilityDebuff: 0
+  dotType: 0
+  dotDuration: 0
+  canApplyStatus: 1
+  statusApplyChance: 20
+  statusDOTType: 3
+  statusDuration: 3
+  animationType: 2
+  vfxPrefab: {fileID: 3432958286849152088, guid: 87ee7299dd44ed747af24dbb91bcd33b, type: 3}
+  spawnOnCaster: 0
+  spawnOnTarget: 1
+  vfxLifetime: 2
+  animationDuration: 2
+  castSFX: {fileID: 0}
+  sfxVolume: 1

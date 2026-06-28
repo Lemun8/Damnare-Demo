@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd04026d9e262694bbb11595bd7db789, type: 3}
+  m_Name: CharacterPrefabLibrary
+  m_EditorClassIdentifier: 
+  knightOverworld: {fileID: 2641607299877698189, guid: abc7ffee774a5ee499ae10a196e0a9bf, type: 3}
+  mageOverworld: {fileID: 2641607299877698189, guid: 6bbe469bcedee7640ae8a2750572d825, type: 3}
+  archerOverworld: {fileID: 2641607299877698189, guid: e072e97ca4ba7374dae13919dc55be7c, type: 3}
+  paladinOverworld: {fileID: 2641607299877698189, guid: a0e4b63ae2b5de14c9615a294e025fb5, type: 3}
+  knightBattle: {fileID: 3389334487772085556, guid: 3437c1e29641b8c44adf6d897d4f3622, type: 3}
+  mageBattle: {fileID: 3389334487772085556, guid: 17f784da7d1717043a29bd1c0f495149, type: 3}
+  archerBattle: {fileID: 3389334487772085556, guid: 30d0e1b34b44e92488a50e5b33a99609, type: 3}
+  paladinBattle: {fileID: 3389334487772085556, guid: 5fcf48c35b8e33d4e959c93edcdbfb62, type: 3}

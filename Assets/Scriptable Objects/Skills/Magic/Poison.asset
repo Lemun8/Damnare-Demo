@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afaaf2893852fe4aba412cdea883052, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  skillName: Poison
+  apCost: 1
+  priority: 0
+  targetType: 0
+  power: 0
+  isMagic: 1
+  canDestroyLimb: 0
+  usageContext: 0
+  accuracy: 100
+  mindCost: 15
+  isHealingSkill: 0
+  minHeal: 0
+  maxHeal: 0
+  isBuffSkill: 0
+  buffDuration: 0
+  attackBuff: 0
+  magicAttackBuff: 0
+  defenseBuff: 0
+  magicDefenseBuff: 0
+  agilityBuff: 0
+  isDebuffSkill: 0
+  canApplyDebuff: 0
+  debuffDuration: 0
+  debuffApplyChance: 0
+  attackDebuff: 0
+  magicAttackDebuff: 0
+  defenseDebuff: 0
+  magicDefenseDebuff: 0
+  agilityDebuff: 0
+  dotType: 1
+  dotDuration: 5
+  canApplyStatus: 0
+  statusApplyChance: 0
+  statusDOTType: 0
+  statusDuration: 0
+  animationType: 3
+  vfxPrefab: {fileID: 4425129568585013132, guid: bbeeb0ddc21369746aaaae5c5c1c09cf, type: 3}
+  spawnOnCaster: 0
+  spawnOnTarget: 1
+  vfxLifetime: 2
+  animationDuration: 2
+  castSFX: {fileID: 8300000, guid: d554b167fc8bd694f8f9cb54e5b262ba, type: 3}
+  sfxVolume: 1

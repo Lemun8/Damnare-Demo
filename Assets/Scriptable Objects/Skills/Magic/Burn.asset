@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afaaf2893852fe4aba412cdea883052, type: 3}
+  m_Name: Burn
+  m_EditorClassIdentifier: 
+  skillName: Burn
+  apCost: 1
+  priority: 0
+  targetType: 0
+  power: 0
+  isMagic: 1
+  canDestroyLimb: 0
+  usageContext: 0
+  accuracy: 100
+  mindCost: 10
+  isHealingSkill: 0
+  minHeal: 0
+  maxHeal: 0
+  isBuffSkill: 0
+  buffDuration: 0
+  attackBuff: 0
+  magicAttackBuff: 0
+  defenseBuff: 0
+  magicDefenseBuff: 0
+  agilityBuff: 0
+  isDebuffSkill: 0
+  canApplyDebuff: 0
+  debuffDuration: 0
+  debuffApplyChance: 0
+  attackDebuff: 0
+  magicAttackDebuff: 0
+  defenseDebuff: 0
+  magicDefenseDebuff: 0
+  agilityDebuff: 0
+  dotType: 2
+  dotDuration: 5
+  canApplyStatus: 0
+  statusApplyChance: 0
+  statusDOTType: 0
+  statusDuration: 0
+  animationType: 3
+  vfxPrefab: {fileID: 6294508013172393196, guid: 043176b6a68be2b43b073aaaa4782c7d, type: 3}
+  spawnOnCaster: 0
+  spawnOnTarget: 1
+  vfxLifetime: 2
+  animationDuration: 2
+  castSFX: {fileID: 0}
+  sfxVolume: 1

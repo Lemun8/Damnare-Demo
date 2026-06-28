@@ -1,0 +1,571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2641607299877698189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5154521693071453879}
+  - component: {fileID: 7252360921058548830}
+  - component: {fileID: 4739088581613286765}
+  - component: {fileID: 160037055784714415}
+  - component: {fileID: 5849211621712135599}
+  - component: {fileID: 452017142155635885}
+  - component: {fileID: 1376995133456940662}
+  - component: {fileID: 1319931083014743856}
+  - component: {fileID: 5797971912541444874}
+  - component: {fileID: 5819424228397952015}
+  - component: {fileID: 3324059520350863744}
+  - component: {fileID: 8016220312717924955}
+  m_Layer: 9
+  m_Name: Knight
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5154521693071453879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7252360921058548830
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: -1433985901, guid: 54ae9ba5119952944950a36691296efd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12, y: 12}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &4739088581613286765
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 657f87d0c5e8503418299590a2e81e6a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &160037055784714415
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2754095265929712098, guid: e15811b95b91763408a21bea1ed1739e, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!50 &5849211621712135599
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &452017142155635885
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2
+--- !u!114 &1376995133456940662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3177f619aa1504041b39f21c13c5d555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  footstepClips:
+  - {fileID: 8300000, guid: 023ea3ddeaa8dd146b7633a0800e5a0e, type: 3}
+  footstepInterval: 0.3
+--- !u!114 &1319931083014743856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b01f19566d9a1439367f6ee746baf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraFocusPoint: {fileID: 0}
+  characterName: Knight
+  characterClass: 1
+  isPlayerControlled: 1
+  isInCombat: 0
+  playerHunger: {fileID: 0}
+  hungerMaxHPModifier: 1
+  currentMind: 0
+  maxMind: 0
+  overallStats:
+    mind: 100
+    luck: 10
+    agility: 20
+    evasion: 0
+    accuracy: 10
+  maxAP: 5
+  currentAP: 5
+  bodyParts:
+  - partName: Head
+    limbType: 0
+    maxHP: 175
+    currentHP: 175
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 0
+    magicAttack: 5
+    defense: 0
+    magicDefense: 0
+    limbSkills:
+    - {fileID: 11400000, guid: 43c70eaca4f837e4f98852b5dd6aceb1, type: 2}
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 1
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 2
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  - partName: Torso
+    limbType: 1
+    maxHP: 350
+    currentHP: 350
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 0
+    magicAttack: 0
+    defense: 10
+    magicDefense: 15
+    limbSkills: []
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 1
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 2
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  - partName: Right Arm
+    limbType: 3
+    maxHP: 175
+    currentHP: 175
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 20
+    magicAttack: 5
+    defense: 10
+    magicDefense: 15
+    limbSkills:
+    - {fileID: 11400000, guid: 94f918948df75ce42ae89c231cf9f32f, type: 2}
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 1
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 2
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  - partName: Left Arm
+    limbType: 2
+    maxHP: 175
+    currentHP: 175
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 20
+    magicAttack: 5
+    defense: 10
+    magicDefense: 15
+    limbSkills:
+    - {fileID: 11400000, guid: 9951a8e6a18cafb47b270b90575931d9, type: 2}
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 1
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 2
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  - partName: Right Leg
+    limbType: 5
+    maxHP: 125
+    currentHP: 125
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 20
+    magicAttack: 5
+    defense: 10
+    magicDefense: 15
+    limbSkills:
+    - {fileID: 11400000, guid: 16b45b56d596dc945b27e0f51e2c8d0e, type: 2}
+    - {fileID: 11400000, guid: 0556ac3ff5e2f7240aed61aeecfb9559, type: 2}
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  - partName: Left Leg
+    limbType: 4
+    maxHP: 125
+    currentHP: 125
+    character: {fileID: 0}
+    isBlackedOut: 0
+    attack: 20
+    magicAttack: 5
+    defense: 10
+    magicDefense: 15
+    limbSkills:
+    - {fileID: 11400000, guid: 0556ac3ff5e2f7240aed61aeecfb9559, type: 2}
+    - {fileID: 11400000, guid: e0d8a6cf58ef81c43a283e3d8360e160, type: 2}
+    innateLimbSkills: []
+    armorSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    weaponSlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    accessorySlot:
+      slotType: 0
+      equippedItem: {fileID: 0}
+    usedThisTurn: 0
+    baseAttack: 0
+    baseMagicAttack: 0
+    baseDefense: 0
+    baseMagicDefense: 0
+    baseMaxHP: 0
+  animator: {fileID: 0}
+  inventory: {fileID: 3324059520350863744}
+  damagePopupAnchor: {fileID: 0}
+--- !u!114 &5797971912541444874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c291642ab176946b5fbfaf4f18e831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1319931083014743856}
+  maxHunger: 100
+  startHunger: 100
+  hungerDecayPerMinute: 5
+  hungerThreshold: 50
+  greaterHungerThreshold: 25
+  currentHunger: 100
+  hungerStage: 0
+--- !u!114 &5819424228397952015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea83171d55bf2443861b0d3b292e570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 1319931083014743856}
+  mindDecayPerMinute: 5
+  currentMind: 0
+--- !u!114 &3324059520350863744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33ffa2d6ff3e5347aa87ef54b795e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slots:
+  - data: {fileID: 11400000, guid: ff64f2bd5caad3741b2d0eea0bea0e45, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: 0c235316e9ca1c54fb5e5f4f62451bcf, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: 552df2c3fc3f4de45bd083c5a5d1a5bb, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: bd85138c5231313449e4289cd9d4266a, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: 5d3ce10a43eeba045b521d495fe595f5, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: b0a69635385d4f0498c69ae4863f5813, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: 2587256ad6c1f2d4f88b885eb70b9968, type: 2}
+    quantity: 1
+  - data: {fileID: 11400000, guid: e66b53e8cf6b60845bae31d51e4f4411, type: 2}
+    quantity: 2
+--- !u!114 &8016220312717924955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641607299877698189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86dc24d5af2c79545a74ef30b75420e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overworldPlayer: {fileID: 1319931083014743856}
+  battleSceneName: BattleScene

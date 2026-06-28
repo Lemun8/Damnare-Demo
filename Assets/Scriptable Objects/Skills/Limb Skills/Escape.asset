@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457a5e4a527b6df43870ee07f24c4193, type: 3}
+  m_Name: Escape
+  m_EditorClassIdentifier: 
+  skillName: Escape
+  apCost: 0
+  priority: 99
+  targetType: 2
+  power: 0
+  isMagic: 0
+  canDestroyLimb: 0
+  usageContext: 0
+  accuracy: 100
+  mindCost: 0
+  isHealingSkill: 0
+  minHeal: 0
+  maxHeal: 0
+  isBuffSkill: 0
+  buffDuration: 0
+  attackBuff: 0
+  magicAttackBuff: 0
+  defenseBuff: 0
+  magicDefenseBuff: 0
+  agilityBuff: 0
+  dotType: 0
+  dotDuration: 0
+  isDebuffSkill: 0
+  debuffDuration: 0
+  attackDebuff: 0
+  magicAttackDebuff: 0
+  defenseDebuff: 0
+  magicDefenseDebuff: 0
+  agilityDebuff: 0
+  animationType: 0
+  vfxPrefab: {fileID: 0}
+  spawnOnCaster: 0
+  spawnOnTarget: 0
+  vfxLifetime: 2
+  animationDuration: 2
+  agilityDifferenceScale: 1
+  minChance: 10
+  maxChance: 95

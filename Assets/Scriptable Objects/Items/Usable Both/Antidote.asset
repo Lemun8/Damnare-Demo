@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe75c160ffd5a54db06f3f3b16ff87f, type: 3}
+  m_Name: Antidote
+  m_EditorClassIdentifier: 
+  itemName: Antidote
+  description: 
+  icon: {fileID: 0}
+  targetType: 0
+  targetWholeBody: 1
+  usableByLeftArm: 1
+  usableByRightArm: 1
+  apCost: 1
+  useType: 2
+  healAmount: 0
+  mindRestore: 0
+  damageAmount: 0
+  hungerRestore: 0
+  curesPoison: 1
+  curesBurn: 0
+  curesBleed: 0
+  curesAllDOT: 0
+  animationType: 1
+  animationDuration: 2
+  vfxPrefab: {fileID: 0}
+  spawnOnCaster: 1
+  spawnOnTarget: 0
+  vfxLifetime: 2

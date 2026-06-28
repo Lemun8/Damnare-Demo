@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a6cd9b49b1f3b499fcc67ebd9dcc23, type: 3}
+  m_Name: DIalogueTest_01
+  m_EditorClassIdentifier: 
+  nodes:
+  - speakerName: Wizard
+    text: Use WASD for movement, Space to loot, E to talk, and Tab to pause menu.
+    choices:
+    - choiceText: Who are you?
+      nextNodeIndex: 1
+    - choiceText: Nevermind
+      nextNodeIndex: 2
+  - speakerName: Oz
+    text: My name is Oz, I am a wizard from the east.
+    choices: []
+  - speakerName: Wizard
+    text: I'll meet you at the end of the dungeon.
+    choices: []
