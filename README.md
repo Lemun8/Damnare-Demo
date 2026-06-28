@@ -1,7 +1,7 @@
 # Damnare-Prototype/Demo
 The Code Design Documentation for Damnare
 
-<img src="https://github.com/user-attachments/assets/1dac9800-41d3-4dfb-b0f1-e7abcf1a6b75"/>
+<img src="https://github.com/user-attachments/assets/70c433b3-f3bf-4cc3-9bb5-18c6a595f594"/>
 <!-- About the game -->
 <td width="70%" valign="top" style="padding:15px;">
   <h2>About </h2>
